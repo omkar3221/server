@@ -1,6 +1,6 @@
 var express=require("express");
 var mongoose=require("mongoose");
-const { defaultConfiguration } = require("../app");
+const { defaultConfiguration } = require("./app");
 var schema=mongoose.Schema;
 var router=express.Router();
 
